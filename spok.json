@@ -6,14 +6,15 @@
             "bin": [
                 "bin/spok.exe"
             ],
-            "hash": "a3001d1000e6521003fc9719cc719c6c7a51540c5bddd067bf0448949194c19e"
+            "hash": "cc98f2ee38e5d1f3f683311d6c3915ea1188841ccc069f3957c592181aff2fe1"
         }
     },
     "homepage": "https://github.com/devlup-labs/spok",
     "license": "MIT",
     "description": "Sans Password or Key (SPoK) - An easier way for remote server authentication.",
     "pre_install": [
-        "Write-Host 'Running preinstall command'"
+        "Write-Host 'Running preinstall command'",
+        "Invoke-Expression -Command chocolateyInstall.ps1"
     ],
     "post_install": [
         "Write-Host 'Running postinstall command'"
