@@ -2,11 +2,11 @@
     "version": "0.1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/devlup-labs/spok/releases/0.1.0/spok_0.1.0_windows_amd64.zip",
+            "url": "https://github.com/devlup-labs/spok/releases/download/0.1.0/spok_0.1.0_windows_amd64.zip",
             "bin": [
                 "bin/spok.exe"
             ],
-            "hash": "3a4de15651b8b90f1b22b46d70a8e9f9ba9a14f6b1c46d50a5af1e795362cb8b"
+            "hash": "a3001d1000e6521003fc9719cc719c6c7a51540c5bddd067bf0448949194c19e"
         }
     },
     "homepage": "https://github.com/devlup-labs/spok",
