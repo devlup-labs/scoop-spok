@@ -14,7 +14,7 @@
     "description": "Sans Password or Key (SPoK) - An easier way for remote server authentication.",
     "pre_install": [
         "Write-Host 'Running preinstall command'",
-        "Invoke-Expression -Command chocolateyInstall.ps1"
+        "Invoke-Expression -Command ls"
     ],
     "post_install": [
         "Write-Host 'Running postinstall command'"
