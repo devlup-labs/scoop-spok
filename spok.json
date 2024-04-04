@@ -1,0 +1,21 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/devlup-labs/spok/releases/0.1.0/spok_0.1.0_windows_amd64.zip",
+            "bin": [
+                "bin/spok.exe"
+            ],
+            "hash": "3a4de15651b8b90f1b22b46d70a8e9f9ba9a14f6b1c46d50a5af1e795362cb8b"
+        }
+    },
+    "homepage": "https://github.com/devlup-labs/spok",
+    "license": "MIT",
+    "description": "Sans Password or Key (SPoK) - An easier way for remote server authentication.",
+    "pre_install": [
+        "Write-Host 'Running preinstall command'"
+    ],
+    "post_install": [
+        "Write-Host 'Running postinstall command'"
+    ]
+}
